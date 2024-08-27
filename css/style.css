@@ -1,0 +1,474 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.index {
+    background-color: #23598B;
+}
+
+/* Container Geral */
+.container, .codigo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.container {
+    color: white;
+}
+
+/* Estilo Comum para Card */
+.card, .codigo-card {
+    background-color: #245a8e;
+    border-radius: 50px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+    padding: 40px 60px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.card {
+    text-align: center;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nick-logo {
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.nick-input-container {
+    margin-bottom: 20px;
+}
+
+.codigo-placeholder-container {
+    margin-bottom: 20px;
+}
+
+/* Estilo dos Labels */
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nick-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.codigo-title {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Estilo das Entradas */
+.input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    outline: none;
+}
+
+.nick-input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1px;
+    outline: none;
+}
+
+.codigo-placeholder {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    outline: none;
+}
+
+.placeholder {
+    background-color: #fff;
+}
+
+/* Estilo do Botão */
+.button, .nick-button {
+    margin-top: 20px;
+}
+
+.btn, .nick-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #23598B;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover, .nick-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .logo, .nick-logo {
+        font-size: 36px;
+    }
+    
+    .label, .nick-label, .codigo-title {
+        font-size: 25px;
+    }
+
+    .input, .nick-input, .codigo-placeholder {
+        width: 80%;
+    }
+
+    .btn, .nick-btn {
+        font-size: 14px;
+    }
+
+    .card, .codigo-card {
+        padding: 30px 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo, .nick-logo {
+        font-size: 24px;
+    }
+    
+    .label, .nick-label, .codigo-title {
+        font-size: 12px;
+    }
+
+    .input, .nick-input, .codigo-placeholder {
+        width: 70%;
+    }
+
+    .btn, .nick-btn {
+        font-size: 12px;
+    }
+
+    .card, .codigo-card {
+        padding: 20px 30px;
+    }
+    
+    .codigo-placeholder {
+        height: 35px;
+    }
+}
+.button, .code-button {
+    margin-top: 20px;
+}
+
+.btn, .code-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #23598B;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover, .code-btn:hover {
+    background-color: #f0f0f0;
+}
+.input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    outline: none;
+}
+
+.code-input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1px;
+    outline: none;
+}
+
+.codigo-placeholder {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    outline: none;
+}
+
+.placeholder {
+    background-color: #fff;
+}
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.code-logo {
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Estilos Gerais do Menu */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #003a5b; /* Cor de fundo da página */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    position: absolute; /* Posiciona o cabeçalho de forma absoluta */
+    top: 20px; /* Espaçamento do topo */
+    left: 20px; /* Espaçamento da esquerda */
+}
+
+.logo {
+    max-width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
+
+.menu-container {
+    width: 500px; /* Largura do contêiner */
+    height: 80vh; /* Altura do contêiner ajustada para ocupar a maior parte da altura da tela */
+    background-color: #23598B; /* Cor de fundo do contêiner */
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-container h1 {
+    margin: 0;
+    font-size: 28px; /* Tamanho do título */
+    margin-bottom: 20px;
+}
+
+.room-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex: 1; /* Faz a lista de salas ocupar o espaço restante */
+    overflow-y: auto; /* Permite rolar se a lista exceder o tamanho do contêiner */
+    display: flex;
+    flex-direction: column; /* Alinha os itens da lista verticalmente */
+}
+
+.room-item {
+    padding: 20px; /* Aumentando o padding dos itens */
+    border-radius: 8px; /* Arredondamento dos cantos dos itens */
+    background-color: #1e3a60; /* Cor de fundo dos itens */
+    margin-bottom: 15px; /* Espaçamento entre os itens */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1; /* Permite que os itens se expandam para preencher o espaço disponível */
+    transition: background-color 0.3s;
+}
+
+.room-item.active,
+.room-item:hover {
+    background-color: #003a5b; /* Cor de fundo ao passar o mouse ou quando ativo */
+}
+
+.room-name {
+    font-size: 20px; /* Tamanho da fonte dos nomes das salas */
+    flex: 1; /* Faz o nome da sala ocupar o espaço disponível */
+    text-align: left; /* Alinhando o nome da sala à esquerda */
+}
+
+.enter-room-btn {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; /* Aumentando o padding do botão */
+    cursor: pointer;
+    font-size: 16px; /* Tamanho da fonte do botão */
+    transition: background-color 0.3s;
+}
+
+.enter-room-btn:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+.add-room-btn {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px; /* Padding do botão */
+    cursor: pointer;
+    font-size: 18px; /* Tamanho da fonte do botão */
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.add-room-btn:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0056b3; /* Cor de fundo da página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+}
+
+.chat-container {
+    width: 100vw;
+    height: 100vh;
+    max-width: 800px; /* Limita a largura máxima para não ultrapassar a tela */
+    max-height: 600px; /* Limita a altura máxima para não ultrapassar a tela */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.header-chat {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #0056b3; /* Cor de fundo das mensagens */
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+.message.user {
+    background-color: #01366e;
+    color: white;
+    text-align: right;
+}
+
+.input-area {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-area button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-area button:hover {
+    background-color: #0056b3;
+}
